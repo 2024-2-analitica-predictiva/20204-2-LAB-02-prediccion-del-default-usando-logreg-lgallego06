@@ -39,18 +39,18 @@
 #
 # Paso 1.
 # Realice la limpieza de los datasets:
-# - Renombre la columna "default payment next month" a "default".
-# - Remueva la columna "ID".
-# - Elimine los registros con informacion no disponible.
+# - Renombre la columna "default payment next month" a "default". (yap)
+# - Remueva la columna "ID".  (yap)
+# - Elimine los registros con informacion no disponible.   (yap)
 # - Para la columna EDUCATION, valores > 4 indican niveles superiores
-#   de educación, agrupe estos valores en la categoría "others".
+#   de educación, agrupe estos valores en la categoría "others".   (yap)
 #
 # Renombre la columna "default payment next month" a "default"
-# y remueva la columna "ID".
+# y remueva la columna "ID".    (yap)
 #
 #
 # Paso 2.
-# Divida los datasets en x_train, y_train, x_test, y_test.
+# Divida los datasets en x_train, y_train, x_test, y_test.   (yap)
 #
 #
 # Paso 3.
@@ -61,16 +61,16 @@
 # - Escala las demas variables al intervalo [0, 1].
 # - Selecciona las K mejores caracteristicas.
 # - Ajusta un modelo de regresion logistica.
-#
+#(yap)
 #
 # Paso 4.
 # Optimice los hiperparametros del pipeline usando validación cruzada.
 # Use 10 splits para la validación cruzada. Use la función de precision
 # balanceada para medir la precisión del modelo.
-#
+#(yap)
 #
 # Paso 5.
-# Salve el modelo como "files/models/model.pkl".
+# Salve el modelo como "files/models/model.pkl". (yap)
 #
 #
 # Paso 6.
@@ -83,7 +83,7 @@
 #
 # {'type': 'metrics', 'dataset': 'train', 'precision': 0.8, 'balanced_accuracy': 0.7, 'recall': 0.9, 'f1_score': 0.85}
 # {'type': 'metrics', 'dataset': 'test', 'precision': 0.7, 'balanced_accuracy': 0.6, 'recall': 0.8, 'f1_score': 0.75}
-#
+#(yap)
 #
 # Paso 7.
 # Calcule las matrices de confusion para los conjuntos de entrenamiento y

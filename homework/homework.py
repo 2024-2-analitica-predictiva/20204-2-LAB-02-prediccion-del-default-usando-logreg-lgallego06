@@ -70,7 +70,7 @@
 #(yap)
 #
 # Paso 5.
-# Salve el modelo como "files/models/model.pkl". (yap)
+# Salve el modelo como "files/models/model.pkl".
 #
 #
 # Paso 6.
